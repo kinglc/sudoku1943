@@ -7,7 +7,7 @@ int main(int   argc, char*   argv[])
 {
 	int i, j;
 	ifstream input_file;
-	output_file.open("BIN/sudoku.txt");
+	output_file.open("./BIN/sudoku.txt");
 	if (argv[1][0]=='-'&&argv[1][1] == 's')
 	{
 		input_file.open(argv[2]);
